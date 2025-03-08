@@ -12,9 +12,12 @@
         <h2>Testando Strings.</h2>
         <?php 
             $palavra = "Otorrinolaringologista";
-            $frase = "Amanhã precisarei ir ao Otorrinolaringologista";
-            $paragrafo = "Semana que vem, na quarta-feira, irei ao Otorrinolaringologista fazer uma consulta. Quando eu voltar, irei ao mercado e depois voltarei para casa";
-
+            $frase = <<<TEXT
+            Amanhã precisarei ir ao Otorrinolaringologista
+TEXT;
+            $paragrafo = <<<TEXT
+            Semana que vem, na quarta-feira, irei ao Otorrinolaringologista fazer uma consulta. Quando eu voltar, irei ao mercado e depois voltarei para casa.
+TEXT;
             $tamanhoPalavra = strlen($palavra);
             $tamanhoFrase = strlen($frase);
             $tamanhoParagrafo = strlen($paragrafo);
