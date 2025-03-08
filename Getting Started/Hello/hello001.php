@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <section>
-            <P>
-                <?php
-                    //variável
-                    $nome = "Lucas Gabriel";
-                    //impressão de boas-vindas
-                    echo "<h1>Bem-vindo ao meu teste de PHP!</h1><br>";
-                    //impressão da soma(+)
-                    echo "A soma de soma de 5 + 3 é " . (5 + 3) . "<br>";
-                    //impressão do produto(*)
-                    echo "O produto de 4 * 2 é " . (4 * 2) . "<br>";
-                    ?>
-            </P>
-        </section>
-    </main>
+    <section>
+        <h1>Bem-vindo ao meu teste de PHP!</h1>
+        <h2>Testando comando "echo".</h2>
+        <?php
+            //impressão da soma(+)
+            echo "<p>A soma de 5 + 3 é " . (5 + 3) . ".</p>";
+            //impressão do produto(*)
+            echo "<p>O produto de 6 * 2 é " . (6 * 2) . ".</p>";
+        ?>
+    </section>
 </body>
 </html>
