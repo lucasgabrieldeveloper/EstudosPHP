@@ -9,18 +9,14 @@
 <body>
     <section>
         <h1>Bem-vindo ao meu teste de PHP!</h1>
-        <h2>Testando comando "echo".</h2>
-        <?php 
-
-            //primeira impressão
-            echo "<p>\"Nunca é tarde para aprender PHP!\".</p>";
-
-            //data
-            echo "<p>A data de hoje é: " . date(format: 'd-m-Y') . ".</p>";
-
-            //resultado da divisão
-            echo "<p>O resultado de 20 ÷ 5 é " . (20 / 5) . ".</p>";
-        ?>
+        <div class="container">
+            <h2>Testando comando "echo".</h2>
+            <?php        
+                echo "<p>\"Nunca é tarde para aprender PHP!\".</p>"; //primeira impressão         
+                echo "<p>A data de hoje é: " . date(format: 'd-m-Y') . ".</p>"; //data          
+                echo "<p>O resultado de 20 ÷ 5 é " . (20 / 5) . ".</p>"; //resultado da divisão
+            ?>
+        </div>
     </section>
 </body>
 </html>

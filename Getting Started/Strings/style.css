@@ -28,8 +28,85 @@ section{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+form label{
+    width: 158px;
+    font-family: "Poppins", sans-serif;
+    background-color: #573c8c71;
+    padding: 2px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+form{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    background-color: #422d6b3c;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+}
+
+form input[type="text"] {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type="submit"]{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:#6d4cb0e4;
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover{
+    background-color:#6D4CB0;
+}
+
+button{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:#6d4cb0e4;
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: #6D4CB0;
+}
+
+section .container{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #422d6b27;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 p, h1, h2{
     font-family: "Poppins", sans-serif;
+}
+
+h1{
+    text-align: center;
 }
 
 h2{

@@ -9,16 +9,17 @@
 <body>
     <section>
         <h1>Bem-vindo ao meu teste PHP!</h1>
-        <h2>Testando variáveis.</h2>
-        <?php 
-            //criação das variáveis
-            $nome = "Lucas";
-            $sobrenome = "Gabriel";
-            $profissao = "Desenvolvedor Web";
-
-            //exibição
-            echo "<p>Olá! <br> Meu nome é $nome $sobrenome e sou $profissao.</p><br>";
-        ?>
+        <div class="container">
+            <h2>Testando variáveis.</h2>
+            <?php
+                //declaração das variáveis
+                $nome = "Lucas";
+                $sobrenome = "Gabriel";
+                $profissao = "Desenvolvedor Web";
+                
+                echo "<p>Olá! <br> Meu nome é $nome $sobrenome e sou $profissao.</p><br>"; //exibição
+            ?>
+        </div>
     </section>
 </body>
 </html>

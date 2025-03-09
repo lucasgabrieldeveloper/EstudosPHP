@@ -9,15 +9,19 @@
 <body>
     <section>
         <h1>Bem-vindo ao meu teste PHP!</h1>
-        <h2>Teste de String.</h2>
-        <?php 
-            $mensagem = "Hoje eu estou muito triste.";
-            $novaMensagem = str_replace("triste", "feliz", $mensagem);
-
-            echo "<p>$mensagem</p>";
-            echo "<p>Mensagem com palavra substituída\u{1F53D}</p>";
-            echo "<p>$novaMensagem</p>";
-        ?>
+        <div class="container">
+            <h2>Teste de String.</h2>
+            <?php
+                //declaração das variáveis
+                $mensagem = "Hoje eu estou muito triste.";
+                $novaMensagem = str_replace("triste", "feliz", $mensagem);
+                
+                //mensagem e nova mensagem
+                echo "<p>$mensagem</p>";
+                echo "<p>Mensagem com palavra substituída\u{1F53D}</p>";
+                echo "<p>$novaMensagem</p>";
+            ?>
+        </div>
     </section>
 </body>
 </html>

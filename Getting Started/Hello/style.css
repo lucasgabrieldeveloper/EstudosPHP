@@ -28,8 +28,22 @@ section{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+section .container{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #422d6b27;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 p, h1, h2{
     font-family: "Poppins", sans-serif;
+}
+
+h1{
+    text-align: center;
 }
 
 h2{

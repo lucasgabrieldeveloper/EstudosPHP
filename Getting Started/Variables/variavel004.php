@@ -9,16 +9,19 @@
 <body>
     <section>
         <h1>Bem-vindo ao meu teste PHP!</h1>
-        <h2>Testando variáveis.</h2>
-        <?php 
-            $estouOnline = false;
+        <div class="container">
+            <h2>Testando variáveis.</h2>
+            <?php
+                $estouOnline = false; //declaração da variável
 
-            if ($estouOnline){
-                echo "<p>Eu estou online.</p>";
-            } else {
-                echo "<p>Eu estou offline.</p>";
-            }
-        ?>
+                //comando if/else
+                if ($estouOnline){
+                    echo "<p>Eu estou online.</p>";
+                } else {
+                    echo "<p>Eu estou offline.</p>";
+                }
+            ?>
+        </div>
     </section>
 </body>
 </html>
